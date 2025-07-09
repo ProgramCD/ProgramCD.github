@@ -1,0 +1,9 @@
+.contenedor {
+    display: inline;
+    justify-content: flex-end;
+}
+
+.item {
+    width: 30%
+
+}
