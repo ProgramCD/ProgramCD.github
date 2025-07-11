@@ -1,0 +1,80 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+background-color: yellow;
+color: green;
+padding: 20px 0;
+text-align: center;
+}
+nav ul { 
+list-style: none;
+padding: 0;
+}
+nav ul li {
+display: inline;
+margin: 0 10px;
+}
+nav ul li a {
+color: #000;
+text-decoration: underline;
+}
+#about {
+padding:20px;
+background-color: aliceblue;
+}
+#about h2 {
+margin-top: 0;
+}
+.gallery {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+}
+.proyect {
+width: 300px;
+padding: 10px;
+background-color: antiquewhite;
+border: 1px solid #000;
+text-align: center;
+}
+.proyect img { 
+max-width: 100%;
+height: auto;
+}
+#contact {
+padding: 20PX;
+}
+form {
+display: flex;
+flex-direction: column;
+}
+form label {
+margin-bottom: 5px;
+}
+form input, form textarea {
+margin-bottom: 10px;
+padding: 10px;
+font-size: 16px;
+}
+form input [type="submit"]{ 
+background-color: #000;
+color: aliceblue;
+border: none;
+cursor: pointer;
+}
+@media (max-width: 600px) {
+  nav ul  {
+display: flex;
+flex-direction:column ;
+align-items: center; 
+}
+.gallery {  
+    flex-direction: column;
+    align-items: center;
+}
+}
